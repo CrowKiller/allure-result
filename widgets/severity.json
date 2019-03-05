@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1f6e2c550813a6b0",
+  "name" : "Второй тест",
+  "time" : {
+    "start" : 1551770652212,
+    "stop" : 1551770671119,
+    "duration" : 18907
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aee4c13562e269c",
+  "name" : "Первый тест",
+  "time" : {
+    "start" : 1551770551504,
+    "stop" : 1551770652084,
+    "duration" : 100580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49535c81d352767d",
+  "name" : "Третий тест",
+  "time" : {
+    "start" : 1551771384689,
+    "stop" : 1551771466511,
+    "duration" : 81822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,68 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Первая группа",
+    "children" : [ {
+      "name" : "Работа с поиском",
+      "children" : [ {
+        "name" : "Первый тест",
+        "uid" : "5aee4c13562e269c",
+        "parentUid" : "bf135f4c874428de78ade67639af026b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551770551504,
+          "stop" : 1551770652084,
+          "duration" : 100580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf135f4c874428de78ade67639af026b"
+    }, {
+      "name" : "Работа с товарами",
+      "children" : [ {
+        "name" : "Второй тест",
+        "uid" : "1f6e2c550813a6b0",
+        "parentUid" : "943d2d0023c2953750899a56c7a6becf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551770652212,
+          "stop" : 1551770671119,
+          "duration" : 18907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "943d2d0023c2953750899a56c7a6becf"
+    } ],
+    "uid" : "9d6ea9b8455e70d75c133494f1cd64d9"
+  }, {
+    "name" : "Вторая группа",
+    "children" : [ {
+      "name" : "Работа с поиском",
+      "children" : [ {
+        "name" : "Настройка параметров из JSON",
+        "children" : [ {
+          "name" : "Третий тест",
+          "uid" : "49535c81d352767d",
+          "parentUid" : "0ad72704c80fe9d1f7cf3eb65937b7e5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551771384689,
+            "stop" : 1551771466511,
+            "duration" : 81822
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0ad72704c80fe9d1f7cf3eb65937b7e5"
+      } ],
+      "uid" : "602d8317df72520122101430712d053a"
+    } ],
+    "uid" : "b7654a9562746640678502cce24942a3"
+  } ]
+}

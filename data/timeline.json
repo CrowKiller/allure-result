@@ -1,0 +1,56 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EQR69FS",
+    "children" : [ {
+      "name" : "27512@DESKTOP-EQR69FS.main(1)",
+      "children" : [ {
+        "name" : "Третий тест",
+        "uid" : "49535c81d352767d",
+        "parentUid" : "d8bf507d655feb5aac167b476bc4e62b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551771384689,
+          "stop" : 1551771466511,
+          "duration" : 81822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8bf507d655feb5aac167b476bc4e62b"
+    }, {
+      "name" : "15496@DESKTOP-EQR69FS.main(1)",
+      "children" : [ {
+        "name" : "Второй тест",
+        "uid" : "1f6e2c550813a6b0",
+        "parentUid" : "e4bb9940e920d9d8f7a228ea63d257f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551770652212,
+          "stop" : 1551770671119,
+          "duration" : 18907
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Первый тест",
+        "uid" : "5aee4c13562e269c",
+        "parentUid" : "e4bb9940e920d9d8f7a228ea63d257f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1551770551504,
+          "stop" : 1551770652084,
+          "duration" : 100580
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4bb9940e920d9d8f7a228ea63d257f3"
+    } ],
+    "uid" : "faddb748706ee11b63f7e7fc02b4d4ba"
+  } ]
+}

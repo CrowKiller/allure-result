@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.yandex.test.tests.Test1",
+    "children" : [ {
+      "name" : "test1",
+      "uid" : "5aee4c13562e269c",
+      "parentUid" : "3ea4fdd030e1ff9ecfa8e20b1b4db4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551770551504,
+        "stop" : 1551770652084,
+        "duration" : 100580
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test2",
+      "uid" : "1f6e2c550813a6b0",
+      "parentUid" : "3ea4fdd030e1ff9ecfa8e20b1b4db4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551770652212,
+        "stop" : 1551770671119,
+        "duration" : 18907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test3",
+      "uid" : "49535c81d352767d",
+      "parentUid" : "3ea4fdd030e1ff9ecfa8e20b1b4db4bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551771384689,
+        "stop" : 1551771466511,
+        "duration" : 81822
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ru.yandex.test.tests.Test1"
+  } ]
+}

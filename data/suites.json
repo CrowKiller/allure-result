@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "MarketTest",
+      "children" : [ {
+        "name" : "ru.yandex.test.tests.Test1",
+        "children" : [ {
+          "name" : "Первый тест",
+          "uid" : "5aee4c13562e269c",
+          "parentUid" : "a556189e89acc400b1f43d8b41455b59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551770551504,
+            "stop" : 1551770652084,
+            "duration" : 100580
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Второй тест",
+          "uid" : "1f6e2c550813a6b0",
+          "parentUid" : "a556189e89acc400b1f43d8b41455b59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551770652212,
+            "stop" : 1551770671119,
+            "duration" : 18907
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Третий тест",
+          "uid" : "49535c81d352767d",
+          "parentUid" : "a556189e89acc400b1f43d8b41455b59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1551771384689,
+            "stop" : 1551771466511,
+            "duration" : 81822
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a556189e89acc400b1f43d8b41455b59"
+      } ],
+      "uid" : "b93068f3ceda6690b0358fdcea5f5f6c"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

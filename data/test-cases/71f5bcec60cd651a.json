@@ -1,0 +1,309 @@
+{
+  "uid" : "71f5bcec60cd651a",
+  "name" : "Третий тест",
+  "fullName" : "ru.yandex.test.tests.Test1.test3",
+  "historyId" : "d8e2c75e3b36480ff3f87279a7529584",
+  "time" : {
+    "start" : 1551770764847,
+    "stop" : 1551770837347,
+    "duration" : 72500
+  },
+  "description" : "Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)\n\nРаспарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.\n",
+  "descriptionHtml" : "<p>Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)</p>\n<p>Распарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.yandex.test.appmanager.FilterHelper.waitForLoad(FilterHelper.java:38)\r\n\tat ru.yandex.test.appmanager.FilterHelper.setMonitorParameters(FilterHelper.java:106)\r\n\tat ru.yandex.test.appmanager.ApplicationManager.findFromJSON(ApplicationManager.java:78)\r\n\tat ru.yandex.test.tests.Test1.test3(Test1.java:59)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:763)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1067)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:997)\r\n\tat org.testng.TestNG.run(TestNG.java:965)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1551770760208,
+      "stop" : 1551770764722,
+      "duration" : 4514
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)\n\nРаспарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.\n",
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.yandex.test.appmanager.FilterHelper.waitForLoad(FilterHelper.java:38)\r\n\tat ru.yandex.test.appmanager.FilterHelper.setMonitorParameters(FilterHelper.java:106)\r\n\tat ru.yandex.test.appmanager.ApplicationManager.findFromJSON(ApplicationManager.java:78)\r\n\tat ru.yandex.test.tests.Test1.test3(Test1.java:59)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:763)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1067)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:997)\r\n\tat org.testng.TestNG.run(TestNG.java:965)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+    "steps" : [ {
+      "name" : "Установить параметры из JSON",
+      "time" : {
+        "start" : 1551770764899,
+        "stop" : 1551770837345,
+        "duration" : 72446
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.yandex.test.appmanager.FilterHelper.waitForLoad(FilterHelper.java:38)\r\n\tat ru.yandex.test.appmanager.FilterHelper.setMonitorParameters(FilterHelper.java:106)\r\n\tat ru.yandex.test.appmanager.ApplicationManager.findFromJSON(ApplicationManager.java:78)\r\n\tat ru.yandex.test.tests.Test1.test3(Test1.java:59)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:763)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1067)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:997)\r\n\tat org.testng.TestNG.run(TestNG.java:965)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+      "steps" : [ {
+        "name" : "Удалить старые скриншоты",
+        "time" : {
+          "start" : 1551770769649,
+          "stop" : 1551770769660,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Установить параметры из списка модели данных [ru.yandex.test.model.Monitor@dc59ec2, ru.yandex.test.model.Monitor@375084c9]",
+        "time" : {
+          "start" : 1551770769664,
+          "stop" : 1551770837345,
+          "duration" : 67681
+        },
+        "status" : "broken",
+        "statusMessage" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+        "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.yandex.test.appmanager.FilterHelper.waitForLoad(FilterHelper.java:38)\r\n\tat ru.yandex.test.appmanager.FilterHelper.setMonitorParameters(FilterHelper.java:106)\r\n\tat ru.yandex.test.appmanager.ApplicationManager.findFromJSON(ApplicationManager.java:78)\r\n\tat ru.yandex.test.tests.Test1.test3(Test1.java:59)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:763)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1067)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:997)\r\n\tat org.testng.TestNG.run(TestNG.java:965)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+        "steps" : [ {
+          "name" : "Сбросить фильтры",
+          "time" : {
+            "start" : 1551770769665,
+            "stop" : 1551770791712,
+            "duration" : 22047
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "d89d3b43df743205",
+            "name" : "Page screenshot",
+            "source" : "d89d3b43df743205.png",
+            "type" : "image/png",
+            "size" : 4794854
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        }, {
+          "name" : "Установить параметры из модели данных ru.yandex.test.model.Monitor@dc59ec2",
+          "time" : {
+            "start" : 1551770791712,
+            "stop" : 1551770807031,
+            "duration" : 15319
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Установить цену от 3000",
+            "time" : {
+              "start" : 1551770791713,
+              "stop" : 1551770792044,
+              "duration" : 331
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "3000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить цену до 20000",
+            "time" : {
+              "start" : 1551770792045,
+              "stop" : 1551770792356,
+              "duration" : 311
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "20000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Устанивить производителя DELL",
+            "time" : {
+              "start" : 1551770792357,
+              "stop" : 1551770792494,
+              "duration" : 137
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "manufacturer",
+              "value" : "DELL"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить разрешение 1920x1080",
+            "time" : {
+              "start" : 1551770792495,
+              "stop" : 1551770792720,
+              "duration" : 225
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "resolution",
+              "value" : "1920x1080"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить размер экрана 23.1\"-24\"",
+            "time" : {
+              "start" : 1551770792720,
+              "stop" : 1551770792855,
+              "duration" : 135
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "23.1\"-24\""
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ {
+            "uid" : "72cbbced13cad0ba",
+            "name" : "Page screenshot",
+            "source" : "72cbbced13cad0ba.png",
+            "type" : "image/png",
+            "size" : 2024676
+          } ],
+          "parameters" : [ {
+            "name" : "object",
+            "value" : "ru.yandex.test.model.Monitor@dc59ec2"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 5,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        }, {
+          "name" : "Дождаться загрузки",
+          "time" : {
+            "start" : 1551770807031,
+            "stop" : 1551770837345,
+            "duration" : 30314
+          },
+          "status" : "broken",
+          "statusMessage" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+          "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat ru.yandex.test.appmanager.FilterHelper.waitForLoad(FilterHelper.java:38)\r\n\tat ru.yandex.test.appmanager.FilterHelper.setMonitorParameters(FilterHelper.java:106)\r\n\tat ru.yandex.test.appmanager.ApplicationManager.findFromJSON(ApplicationManager.java:78)\r\n\tat ru.yandex.test.tests.Test1.test3(Test1.java:59)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:131)\r\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:570)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:170)\r\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:790)\r\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:143)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:763)\r\n\tat org.testng.TestRunner.run(TestRunner.java:594)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:398)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:392)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1146)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1067)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:997)\r\n\tat org.testng.TestNG.run(TestNG.java:965)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "monitors",
+          "value" : "[ru.yandex.test.model.Monitor@dc59ec2, ru.yandex.test.model.Monitor@375084c9]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 8,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 10,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MarketTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQR69FS"
+  }, {
+    "name" : "thread",
+    "value" : "24988@DESKTOP-EQR69FS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Вторая группа"
+  }, {
+    "name" : "story",
+    "value" : "Настройка параметров из JSON"
+  }, {
+    "name" : "feature",
+    "value" : "Работа с поиском"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Что-то сломалось",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71f5bcec60cd651a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,510 @@
+{
+  "uid" : "49535c81d352767d",
+  "name" : "Третий тест",
+  "fullName" : "ru.yandex.test.tests.Test1.test3",
+  "historyId" : "d8e2c75e3b36480ff3f87279a7529584",
+  "time" : {
+    "start" : 1551771384689,
+    "stop" : 1551771466511,
+    "duration" : 81822
+  },
+  "description" : "Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)\n\nРаспарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.\n",
+  "descriptionHtml" : "<p>Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)</p>\n<p>Распарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1551771380186,
+      "stop" : 1551771384535,
+      "duration" : 4349
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Вручную создать файл json  (внутри характеристика какого нибудь товара) должно быть больше 3 товаров (параметры мониторов)\n\nРаспарсить json. Найти каждый товар и сделать скрины экрана. Скрины хранить в отдельной дериктории в ресурсах.\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Установить параметры из JSON",
+      "time" : {
+        "start" : 1551771384744,
+        "stop" : 1551771466507,
+        "duration" : 81763
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Удалить старые скриншоты",
+        "time" : {
+          "start" : 1551771388702,
+          "stop" : 1551771388712,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Установить параметры из списка модели данных [ru.yandex.test.model.Monitor@6b16de91, ru.yandex.test.model.Monitor@71bb8b34]",
+        "time" : {
+          "start" : 1551771388714,
+          "stop" : 1551771466507,
+          "duration" : 77793
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Сбросить фильтры",
+          "time" : {
+            "start" : 1551771388715,
+            "stop" : 1551771410042,
+            "duration" : 21327
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "14eb29a370e8798d",
+            "name" : "Page screenshot",
+            "source" : "14eb29a370e8798d.png",
+            "type" : "image/png",
+            "size" : 4786652
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        }, {
+          "name" : "Установить параметры из модели данных ru.yandex.test.model.Monitor@6b16de91",
+          "time" : {
+            "start" : 1551771410042,
+            "stop" : 1551771411187,
+            "duration" : 1145
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Установить цену от 3000",
+            "time" : {
+              "start" : 1551771410042,
+              "stop" : 1551771410359,
+              "duration" : 317
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "3000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить цену до 20000",
+            "time" : {
+              "start" : 1551771410360,
+              "stop" : 1551771410691,
+              "duration" : 331
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "20000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Устанивить производителя DELL",
+            "time" : {
+              "start" : 1551771410691,
+              "stop" : 1551771410828,
+              "duration" : 137
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "manufacturer",
+              "value" : "DELL"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить разрешение 1920x1080",
+            "time" : {
+              "start" : 1551771410829,
+              "stop" : 1551771411043,
+              "duration" : 214
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "resolution",
+              "value" : "1920x1080"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить размер экрана 23.1\"-24\"",
+            "time" : {
+              "start" : 1551771411044,
+              "stop" : 1551771411187,
+              "duration" : 143
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "23.1\"-24\""
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "object",
+            "value" : "ru.yandex.test.model.Monitor@6b16de91"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 5,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Дождаться загрузки",
+          "time" : {
+            "start" : 1551771411187,
+            "stop" : 1551771422751,
+            "duration" : 11564
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Сбросить фильтры",
+          "time" : {
+            "start" : 1551771429102,
+            "stop" : 1551771449077,
+            "duration" : 19975
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "a788a390dcb5d357",
+            "name" : "Page screenshot",
+            "source" : "a788a390dcb5d357.png",
+            "type" : "image/png",
+            "size" : 4829616
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        }, {
+          "name" : "Установить параметры из модели данных ru.yandex.test.model.Monitor@71bb8b34",
+          "time" : {
+            "start" : 1551771449077,
+            "stop" : 1551771450302,
+            "duration" : 1225
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "Установить цену от 10000",
+            "time" : {
+              "start" : 1551771449077,
+              "stop" : 1551771449406,
+              "duration" : 329
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "10000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить цену до 40000",
+            "time" : {
+              "start" : 1551771449406,
+              "stop" : 1551771449743,
+              "duration" : 337
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "price",
+              "value" : "40000"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Устанивить производителя ASUS",
+            "time" : {
+              "start" : 1551771449744,
+              "stop" : 1551771449877,
+              "duration" : 133
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "manufacturer",
+              "value" : "ASUS"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить разрешение 3840x2160",
+            "time" : {
+              "start" : 1551771449878,
+              "stop" : 1551771450092,
+              "duration" : 214
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "resolution",
+              "value" : "3840x2160"
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          }, {
+            "name" : "Установить размер экрана 24.1\"-27\"",
+            "time" : {
+              "start" : 1551771450093,
+              "stop" : 1551771450302,
+              "duration" : 209
+            },
+            "status" : "passed",
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "size",
+              "value" : "24.1\"-27\""
+            } ],
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "shouldDisplayMessage" : false,
+            "attachmentsCount" : 0
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "object",
+            "value" : "ru.yandex.test.model.Monitor@71bb8b34"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 5,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Дождаться загрузки",
+          "time" : {
+            "start" : 1551771450303,
+            "stop" : 1551771461328,
+            "duration" : 11025
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ {
+          "uid" : "30f33ad475526a0b",
+          "name" : "Page screenshot",
+          "source" : "30f33ad475526a0b.png",
+          "type" : "image/png",
+          "size" : 2109926
+        }, {
+          "uid" : "beb36db2f4666abe",
+          "name" : "Page screenshot",
+          "source" : "beb36db2f4666abe.png",
+          "type" : "image/png",
+          "size" : 296230
+        } ],
+        "parameters" : [ {
+          "name" : "monitors",
+          "value" : "[ru.yandex.test.model.Monitor@6b16de91, ru.yandex.test.model.Monitor@71bb8b34]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 16,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 4
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 18,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MarketTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQR69FS"
+  }, {
+    "name" : "thread",
+    "value" : "27512@DESKTOP-EQR69FS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Работа с поиском"
+  }, {
+    "name" : "story",
+    "value" : "Настройка параметров из JSON"
+  }, {
+    "name" : "epic",
+    "value" : "Вторая группа"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Что-то сломалось",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71f5bcec60cd651a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60428}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 41fe1d1973ed388fe806ed4f98c5428c",
+      "time" : {
+        "start" : 1551770764847,
+        "stop" : 1551770837347,
+        "duration" : 72500
+      }
+    }, {
+      "uid" : "dad5eea927d50941",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60141}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: c66b09843097607275e08b2d50a240ca",
+      "time" : {
+        "start" : 1551770671123,
+        "stop" : 1551770738420,
+        "duration" : 67297
+      }
+    }, {
+      "uid" : "12c059b67ede415f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551769619228,
+        "stop" : 1551769671418,
+        "duration" : 52190
+      }
+    }, {
+      "uid" : "d99b11b72deba617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551769132494,
+        "stop" : 1551769185592,
+        "duration" : 53098
+      }
+    }, {
+      "uid" : "52ad46983cd53833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551710319931,
+        "stop" : 1551710378853,
+        "duration" : 58922
+      }
+    }, {
+      "uid" : "3d6f2f7c04b9cd56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551513892361,
+        "stop" : 1551513951013,
+        "duration" : 58652
+      }
+    }, {
+      "uid" : "ee2ff43dbc3ebca9",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for number of elements found by By.xpath: //div[@class='preloadable__preloader preloadable__preloader_visibility_visible preloadable__paranja'] to be more than \"0\". Current number: \"0\" (tried for 30 second(s) with 100 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-EQR69FS', ip: '192.168.1.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\\Users\\Roman\\AppData\\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50712}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.119, webStorageEnabled: true}\nSession ID: 6b672b9213367dc4c2f4dddda84cb4d0",
+      "time" : {
+        "start" : 1551513732340,
+        "stop" : 1551513824423,
+        "duration" : 92083
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49535c81d352767d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,3179 @@
+{
+  "uid" : "5aee4c13562e269c",
+  "name" : "Первый тест",
+  "fullName" : "ru.yandex.test.tests.Test1.test1",
+  "historyId" : "e724593fa1bcd27b66db160e948d1fdc",
+  "time" : {
+    "start" : 1551770551504,
+    "stop" : 1551770652084,
+    "duration" : 100580
+  },
+  "description" : "•\tОткрыть браузер Chrome и развернуть на весь экран. (Автотест должен работать с разными браузерами IE, Chrome, firefox   - сделать параметром)\n•\tПерейти в яндекс маркет\n•\tВыбрать раздел Компьютеры\n•\tВыбрать раздел Ноутбуки\n•\tЗадать параметр поиска до 30000 рублей.\n•\tВыбрать производителя HP и Lenovo\n•\tВыбрать черный, белый цвет\n•\tНажать кнопку Применить.\n•\tВывести самый дешевый ноут. (полное название + цена) \n•\tВывести самый дорогой  ноут. (полное название + цена) \n•\tВ терминал вывести разницу в цене\n•\tЗанести все выведенные ноуты в список. Список отсортировать по имени. Вывести в терминал\n•\tЗанести все выведенные ноуты в мапу. Ключ имя, цена – значение. Вывести в терминал\t\t\n",
+  "descriptionHtml" : "<p>•\tОткрыть браузер Chrome и развернуть на весь экран. (Автотест должен работать с разными браузерами IE, Chrome, firefox   - сделать параметром)\n•\tПерейти в яндекс маркет\n•\tВыбрать раздел Компьютеры\n•\tВыбрать раздел Ноутбуки\n•\tЗадать параметр поиска до 30000 рублей.\n•\tВыбрать производителя HP и Lenovo\n•\tВыбрать черный, белый цвет\n•\tНажать кнопку Применить.\n•\tВывести самый дешевый ноут. (полное название + цена)\n•\tВывести самый дорогой  ноут. (полное название + цена)\n•\tВ терминал вывести разницу в цене\n•\tЗанести все выведенные ноуты в список. Список отсортировать по имени. Вывести в терминал\n•\tЗанести все выведенные ноуты в мапу. Ключ имя, цена – значение. Вывести в терминал</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1551770546768,
+      "stop" : 1551770551369,
+      "duration" : 4601
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "•\tОткрыть браузер Chrome и развернуть на весь экран. (Автотест должен работать с разными браузерами IE, Chrome, firefox   - сделать параметром)\n•\tПерейти в яндекс маркет\n•\tВыбрать раздел Компьютеры\n•\tВыбрать раздел Ноутбуки\n•\tЗадать параметр поиска до 30000 рублей.\n•\tВыбрать производителя HP и Lenovo\n•\tВыбрать черный, белый цвет\n•\tНажать кнопку Применить.\n•\tВывести самый дешевый ноут. (полное название + цена) \n•\tВывести самый дорогой  ноут. (полное название + цена) \n•\tВ терминал вывести разницу в цене\n•\tЗанести все выведенные ноуты в список. Список отсортировать по имени. Вывести в терминал\n•\tЗанести все выведенные ноуты в мапу. Ключ имя, цена – значение. Вывести в терминал\t\t\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Перейти на главную страницу",
+      "time" : {
+        "start" : 1551770551558,
+        "stop" : 1551770562119,
+        "duration" : 10561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ab514eb18c686aa",
+        "name" : "Page screenshot",
+        "source" : "5ab514eb18c686aa.png",
+        "type" : "image/png",
+        "size" : 2361656
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Перейти в раздел ноутбуки",
+      "time" : {
+        "start" : 1551770562121,
+        "stop" : 1551770589184,
+        "duration" : 27063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8db2eb356b0d020e",
+        "name" : "Page screenshot",
+        "source" : "8db2eb356b0d020e.png",
+        "type" : "image/png",
+        "size" : 2467296
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Установить фильтры",
+      "time" : {
+        "start" : 1551770589184,
+        "stop" : 1551770621919,
+        "duration" : 32735
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Установить цену до 30000",
+        "time" : {
+          "start" : 1551770589185,
+          "stop" : 1551770589617,
+          "duration" : 432
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "price",
+          "value" : "30000"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Устанивить производителя HP",
+        "time" : {
+          "start" : 1551770589618,
+          "stop" : 1551770589791,
+          "duration" : 173
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "manufacturer",
+          "value" : "HP"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Устанивить производителя Lenovo",
+        "time" : {
+          "start" : 1551770589792,
+          "stop" : 1551770590001,
+          "duration" : 209
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "manufacturer",
+          "value" : "Lenovo"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Установить цвет черный",
+        "time" : {
+          "start" : 1551770590002,
+          "stop" : 1551770590234,
+          "duration" : 232
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "черный"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Установить цвет белый",
+        "time" : {
+          "start" : 1551770590234,
+          "stop" : 1551770590446,
+          "duration" : 212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "белый"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Дождаться загрузки",
+        "time" : {
+          "start" : 1551770590446,
+          "stop" : 1551770603279,
+          "duration" : 12833
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "f3e957b0060d113d",
+        "name" : "Page screenshot",
+        "source" : "f3e957b0060d113d.png",
+        "type" : "image/png",
+        "size" : 2229881
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Вывести сортированный список",
+      "time" : {
+        "start" : 1551770621919,
+        "stop" : 1551770625088,
+        "duration" : 3169
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770621920,
+          "stop" : 1551770621953,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770621954,
+          "stop" : 1551770623646,
+          "duration" : 1692
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623646,
+          "stop" : 1551770623677,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623677,
+          "stop" : 1551770623706,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623706,
+          "stop" : 1551770623741,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623741,
+          "stop" : 1551770623768,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623768,
+          "stop" : 1551770623798,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623798,
+          "stop" : 1551770623829,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623829,
+          "stop" : 1551770623853,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623853,
+          "stop" : 1551770623877,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623877,
+          "stop" : 1551770623903,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623903,
+          "stop" : 1551770623928,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623928,
+          "stop" : 1551770623961,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623961,
+          "stop" : 1551770623988,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770623988,
+          "stop" : 1551770624016,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624016,
+          "stop" : 1551770624046,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624046,
+          "stop" : 1551770624075,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624075,
+          "stop" : 1551770624101,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624101,
+          "stop" : 1551770624161,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624162,
+          "stop" : 1551770624210,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624210,
+          "stop" : 1551770624237,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624237,
+          "stop" : 1551770624265,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624265,
+          "stop" : 1551770624296,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624296,
+          "stop" : 1551770624326,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624326,
+          "stop" : 1551770624356,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624356,
+          "stop" : 1551770624381,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624381,
+          "stop" : 1551770624411,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624412,
+          "stop" : 1551770624451,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624451,
+          "stop" : 1551770624479,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624480,
+          "stop" : 1551770624511,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624511,
+          "stop" : 1551770624546,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624546,
+          "stop" : 1551770624577,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624577,
+          "stop" : 1551770624602,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624602,
+          "stop" : 1551770624630,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624630,
+          "stop" : 1551770624658,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624658,
+          "stop" : 1551770624687,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624688,
+          "stop" : 1551770624724,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624724,
+          "stop" : 1551770624752,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624752,
+          "stop" : 1551770624779,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624779,
+          "stop" : 1551770624811,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624811,
+          "stop" : 1551770624843,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624843,
+          "stop" : 1551770624872,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624872,
+          "stop" : 1551770624900,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624901,
+          "stop" : 1551770624931,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624931,
+          "stop" : 1551770624966,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624966,
+          "stop" : 1551770624996,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770624996,
+          "stop" : 1551770625026,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625026,
+          "stop" : 1551770625056,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625056,
+          "stop" : 1551770625085,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 49,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вывести HashMap",
+      "time" : {
+        "start" : 1551770625088,
+        "stop" : 1551770627879,
+        "duration" : 2791
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770625088,
+          "stop" : 1551770625100,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625100,
+          "stop" : 1551770625127,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625127,
+          "stop" : 1551770625183,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625184,
+          "stop" : 1551770625205,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625205,
+          "stop" : 1551770625234,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625235,
+          "stop" : 1551770625256,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625257,
+          "stop" : 1551770625299,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625299,
+          "stop" : 1551770625325,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625326,
+          "stop" : 1551770625357,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625357,
+          "stop" : 1551770625379,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625379,
+          "stop" : 1551770625408,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625408,
+          "stop" : 1551770625430,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625430,
+          "stop" : 1551770625479,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625479,
+          "stop" : 1551770625496,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625496,
+          "stop" : 1551770625524,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625524,
+          "stop" : 1551770625546,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625546,
+          "stop" : 1551770625578,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625578,
+          "stop" : 1551770625595,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625595,
+          "stop" : 1551770625621,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625621,
+          "stop" : 1551770625652,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625652,
+          "stop" : 1551770625685,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625685,
+          "stop" : 1551770625707,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625707,
+          "stop" : 1551770625735,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625735,
+          "stop" : 1551770625750,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625750,
+          "stop" : 1551770625779,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625780,
+          "stop" : 1551770625807,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625807,
+          "stop" : 1551770625833,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625833,
+          "stop" : 1551770625881,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625881,
+          "stop" : 1551770625923,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625923,
+          "stop" : 1551770625966,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770625967,
+          "stop" : 1551770625997,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770625997,
+          "stop" : 1551770626028,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626028,
+          "stop" : 1551770626059,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626059,
+          "stop" : 1551770626085,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626085,
+          "stop" : 1551770626114,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626114,
+          "stop" : 1551770626133,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626133,
+          "stop" : 1551770626165,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626165,
+          "stop" : 1551770626189,
+          "duration" : 24
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626189,
+          "stop" : 1551770626215,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626215,
+          "stop" : 1551770626233,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626233,
+          "stop" : 1551770626262,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626262,
+          "stop" : 1551770626281,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626282,
+          "stop" : 1551770626310,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626311,
+          "stop" : 1551770626331,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626331,
+          "stop" : 1551770626360,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626360,
+          "stop" : 1551770626374,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626375,
+          "stop" : 1551770626406,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626406,
+          "stop" : 1551770626425,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626425,
+          "stop" : 1551770626467,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626467,
+          "stop" : 1551770626485,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626485,
+          "stop" : 1551770626516,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626516,
+          "stop" : 1551770626542,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626542,
+          "stop" : 1551770626572,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626572,
+          "stop" : 1551770626594,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626595,
+          "stop" : 1551770626621,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626621,
+          "stop" : 1551770626642,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626642,
+          "stop" : 1551770626672,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626672,
+          "stop" : 1551770626699,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626699,
+          "stop" : 1551770626732,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626732,
+          "stop" : 1551770626747,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626747,
+          "stop" : 1551770626777,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626777,
+          "stop" : 1551770626795,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626795,
+          "stop" : 1551770626823,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626823,
+          "stop" : 1551770626842,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626842,
+          "stop" : 1551770626873,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626874,
+          "stop" : 1551770626892,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626892,
+          "stop" : 1551770626921,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626921,
+          "stop" : 1551770626970,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770626970,
+          "stop" : 1551770626993,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770626994,
+          "stop" : 1551770627010,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627010,
+          "stop" : 1551770627038,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627038,
+          "stop" : 1551770627059,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627059,
+          "stop" : 1551770627107,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627107,
+          "stop" : 1551770627156,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627156,
+          "stop" : 1551770627183,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627183,
+          "stop" : 1551770627215,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627216,
+          "stop" : 1551770627248,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627248,
+          "stop" : 1551770627275,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627275,
+          "stop" : 1551770627305,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627305,
+          "stop" : 1551770627334,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627334,
+          "stop" : 1551770627365,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627365,
+          "stop" : 1551770627396,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627396,
+          "stop" : 1551770627425,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627425,
+          "stop" : 1551770627464,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627464,
+          "stop" : 1551770627497,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627497,
+          "stop" : 1551770627529,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627530,
+          "stop" : 1551770627553,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627554,
+          "stop" : 1551770627580,
+          "duration" : 26
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627580,
+          "stop" : 1551770627610,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627611,
+          "stop" : 1551770627644,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627644,
+          "stop" : 1551770627677,
+          "duration" : 33
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627677,
+          "stop" : 1551770627707,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627707,
+          "stop" : 1551770627741,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627741,
+          "stop" : 1551770627782,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627782,
+          "stop" : 1551770627814,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770627814,
+          "stop" : 1551770627844,
+          "duration" : 30
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770627844,
+          "stop" : 1551770627875,
+          "duration" : 31
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 97,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Вывести самый дорогой и самый дешевый товар, вывести разницу в цене",
+      "time" : {
+        "start" : 1551770627879,
+        "stop" : 1551770652079,
+        "duration" : 24200
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отсортировать по цене",
+        "time" : {
+          "start" : 1551770627879,
+          "stop" : 1551770639920,
+          "duration" : 12041
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться загрузки",
+          "time" : {
+            "start" : 1551770628068,
+            "stop" : 1551770639920,
+            "duration" : 11852
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770639920,
+          "stop" : 1551770639938,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770639938,
+          "stop" : 1551770639966,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770639966,
+          "stop" : 1551770639994,
+          "duration" : 28
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770639994,
+          "stop" : 1551770640013,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770640013,
+          "stop" : 1551770640040,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Отсортировать по цене",
+        "time" : {
+          "start" : 1551770640040,
+          "stop" : 1551770651968,
+          "duration" : 11928
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Дождаться загрузки",
+          "time" : {
+            "start" : 1551770640152,
+            "stop" : 1551770651968,
+            "duration" : 11816
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770651969,
+          "stop" : 1551770651987,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить имя товара",
+        "time" : {
+          "start" : 1551770651987,
+          "stop" : 1551770652019,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770652019,
+          "stop" : 1551770652048,
+          "duration" : 29
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Получить все товары со страницы",
+        "time" : {
+          "start" : 1551770652048,
+          "stop" : 1551770652059,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Определить цену товара",
+        "time" : {
+          "start" : 1551770652059,
+          "stop" : 1551770652079,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on XP (c66b09843097607275e08b2d50a240ca)] -> xpath: //div[contains(@class, 'n-snippet-list')]/div[contains(@class,'n-snippet-card2')]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 14,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 172,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "MarketTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.yandex.test.tests.Test1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EQR69FS"
+  }, {
+    "name" : "thread",
+    "value" : "15496@DESKTOP-EQR69FS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Работа с поиском"
+  }, {
+    "name" : "epic",
+    "value" : "Первая группа"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "Что-то сломалось",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4088e64584ad34e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551710262471,
+        "stop" : 1551710314297,
+        "duration" : 51826
+      }
+    }, {
+      "uid" : "b50a54091d514a11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1551513678350,
+        "stop" : 1551513727325,
+        "duration" : 48975
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5aee4c13562e269c.json",
+  "parameterValues" : [ ]
+}
